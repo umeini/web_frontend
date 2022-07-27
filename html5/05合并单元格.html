@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>合并单元格</title>
+</head>
+<body>
+    <table align="certer" border="1"width="500" height="249"cellspacing="0">
+        <tr>
+            <td></td>
+            <!-- 本来是3X3的格子 -->
+            <!-- 跨行合并 将第一行的第二三个合并成一个，将多余第一行第三个的删除 -->
+            <td colspan="2"></td> 
+         
+        </tr>
+        <tr>
+            <!--跨列合并：将第一列的二三合并，删除多余的第三行的第一个 -->
+            <td rowspan="2"></td>
+            <td></td>
+            <td></td>
+        </tr>
+
+         <tr>
+        
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+    
+</body>
+</html>

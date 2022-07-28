@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>表单域</title>
+</head>
+<body>
+    <form action="demo.go" method="POST" name="表单域名称">
+     
+        <!--各种表单元素控件-->    
+    用户名：<input type="text" name="username" value="请输入名字" maxlength="6"><br>
+
+    密码：<input type="password" name="pwd"><br>
+   <!-- radio 单选按钮 可以实现多选  -->
+      <!-- name 是表格元素的名字 性别单选按钮必须有相同的name 才是以实现多选1  -->
+    性别：男<input type="radio" name="sex" value="男" >女<input type="radio" name="sex" value="女" checked="checked"><br>
+   <!-- checkbox 复选框 可以实现多选  -->
+    爱好：吃饭<input type="checkbox"> 睡觉 <input type="checkbox"> 打豆豆 <input type="checkbox">
+
+        </form>
+
+    
+</body>
+</html>

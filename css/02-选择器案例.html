@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>选择器案例</title>
+</head>
+<style>
+    /* 多类名   */
+    .box {
+        width: 150px;
+        height: 100px;
+        font-size: 20px;
+    }
+    .red {
+     
+        background-color: red;    
+    }
+    .blue {
+    
+        background-color: blue;    
+    }
+</style>
+<body >
+    <div class="red box">红色</div>
+    <div class="blue box">蓝色</div>
+    <div class="red box">红色</div>
+</body>
+
+<!-- id选择器 -->
+<!--口诀： 样式#定义，结构i调用  只能调用一次 被人切勿使用 -->
+<style>
+    #green {
+    color: green;}
+</style>
+<body>
+    <div id="green">胡歌和陈赫</div>
+</body>
+
+
+<!-- 通配符选择器 -->
+<!-- 这里把 html body div span li 等等的标签都改为红色 -->
+<style>
+    * {
+    color: pink;
+    }
+
+</style>
+<body>
+    <div> 世界很美好</div>
+    <span> 我也是一样的好</span>
+    <ul>
+        <li>放牛</li>
+    </ul>
+</body>
+
+</html>

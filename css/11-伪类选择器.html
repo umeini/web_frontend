@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>伪类选择器</title>
+
+    <style>
+        /* 链接伪类选择器 */
+        /* 未访问的链接 a ：link */
+        a :link{
+            color: rgb(128, 10, 10);
+            text-decoration: none;
+        }
+        /* a :visited 选择点击过的（访问的）链接 */
+        a :visited {
+            color: blue;
+        }
+        /* a 是标签选择器， 所有的链接 */
+        a {
+            color: #333;
+            text-decoration: none;
+        }
+        /* a:hover 选择鼠标经过的那个链接 */
+        a:hover {
+            color: #369;
+        }
+        /* a:active 鼠标 正在按下，还没弹起鼠标的那个来链接 */
+        a:active{
+            color:aquamarine;
+        }
+
+    </style>
+</head>
+<body>
+    <a href="#">小猪佩奇</a>
+    <a href="#">小巴蜀</a>
+
+
+    
+</body>
+</html>
